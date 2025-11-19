@@ -1,0 +1,23 @@
+{
+    "name": "realtor-search-tool",
+    "version": "1.0.0",
+    "description": "可配置化的 Realtor.ca 房产搜索工具",
+    "main": "realtor-search.js",
+    "scripts": {
+        "start": "node realtor-search.js",
+        "example": "node example.js",
+        "test": "node test-search.js"
+    },
+    "keywords": [
+        "realtor",
+        "real-estate",
+        "property-search",
+        "canada"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "querystring": "^0.2.1"
+    }
+}
